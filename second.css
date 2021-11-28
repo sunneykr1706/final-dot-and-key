@@ -1,0 +1,328 @@
+.rectangle{
+  position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 88.67%;
+
+background: #FFFFFF;
+}
+.nav-bar
+{
+  position: absolute;
+width: 28.33px;
+height: 0px;
+left: 125px;
+top: 12px;
+
+border: 2px solid #414042;
+}
+.nav-bar2
+{
+  position: absolute;
+  width: 28.33px;
+  height: 0px;
+  left: 125px;
+  top: 19.95px;
+  
+  border: 2px solid #414042;
+}
+.nav-bar3
+{
+  position: absolute;
+  width: 28.33px;
+  height: 0px;
+  left: 125px;
+  top: 27.89px;
+  
+  border: 2px solid #414042;
+}
+.circle-image
+{
+  position: absolute;
+left: 79.31%;
+right: 19.52%;
+top: 8.89%;
+bottom: 95.18%;
+
+
+
+}
+.line-image{
+  position: absolute;
+left: 80.25%;
+right: 19.21%;
+top: 28.42%;
+bottom: 94.55%;
+
+transform: rotate(-6.53deg);
+}
+.profile-1-image{
+  position: absolute;
+left: 85.1%;
+right: 14.13%;
+top: 6.89%;
+bottom: 96.03%;
+
+}
+.profile-2-image{
+  position: absolute;
+left: 84.81%;
+right: 13.84%;
+top: 20.97%;
+bottom: 94.5%;
+}
+.cart-image
+{
+  position: absolute;
+left: 89.99%;
+right: 8.65%;
+top: 6.89%;
+bottom: 94.52%;
+}
+.header-image
+{
+
+position: absolute;
+left: 43.26%;
+right: 43.26%;
+top: -7.67%;
+bottom: 93%;
+
+background: url(.png);
+}
+.main-frame{
+  
+position: absolute;
+width: 959px;
+height: 632px;
+left: 240px;
+top: 187px;
+
+background: #FFEDEB;
+box-shadow: 0.5px 0.5px 4px rgba(120, 120, 120, 0.2);
+  
+}
+.image-form{
+  position: absolute;
+left: 25.31%;
+right: 20.38%;
+top: 12.56%;
+bottom: 28.56%;
+
+mix-blend-mode: multiply;
+}
+.cross-1-image {
+  position: absolute;
+  left: 122.14%;
+  right: 19.86%;
+  top: -11.89%;
+  bottom: 73.01%;
+  transform: matrix( 0, -0, 0.71, 265, 0);
+}
+.cross-2-image {
+  position: absolute;
+  left:  121.89%;
+  right: 24.31%;
+  top: -11.89%;
+  bottom: 75.89%;
+  transform: matrix(, 0.73, -0.68, 0.71, 265, 0);
+}
+
+}
+.text-form{
+  position: absolute;
+left: 30.28%;
+right: 28.75%;
+top: 70.78%;
+bottom: 15.22%;
+
+font-family: DIN Pro;
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 34px;
+/* or 142% */
+
+text-align: center;
+
+color: #414042;
+}
+.rectangle{
+  position: absolute;
+left: 16.67%;
+right: 16.74%;
+top: 89.78%;
+bottom: 9%;
+
+background: #FFFFFF;
+}
+.main-frame
+{
+    position: absolute;
+width: 959px;
+height: 632px;
+left: 240px;
+top: 187px;
+
+background: #FFEDEB;
+box-shadow: 0.5px 0.5px 4px rgba(120, 120, 120, 0.2);
+}
+.rectangle{
+    position: absolute;
+    left: 17.67%;
+    right: 16.74%;
+    top: 203.78%;
+    bottom: 9%;
+    background: #FFFFFF;
+}
+.Rectangle-592
+{
+    position: absolute;
+    left: 5.25%;
+    right: 52.71%;
+    top: 12.44%;
+    bottom: 9%;
+}
+.rectangle-1{
+    position: absolute;
+    left: 17.67%;
+    right: 73.06%;
+    top: 202.78%;
+    bottom: 9%;
+    background: #F7D0CE;
+}
+.first-text{
+    position: absolute;
+    left: 63.12%;
+    right: 31.25%;
+    top: 43.22%;
+    bottom: 54.33%;
+    
+    font-family: DIN Pro;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    
+    color: #414042;
+}
+.Rectangle-591{
+    position: absolute;
+left: 52.54%;
+right: 26.74%;
+top: 47.89%;
+bottom: 48.11%;
+
+border: 1px solid #414042;
+box-sizing: border-box;
+}
+.Youare
+{
+    position: absolute;
+    left: 68.06%;
+    right: 31.32%;
+    top: 64.44%;
+    bottom: 40.11%;
+    font-family: DIN Pro;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #414042;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Montserrat";
+}
+section {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: aliceblue;
+}
+.container {
+  max-width: 400px;
+  width: 90%;
+  padding: 20px;
+  box-shadow: 0px 0px 20px #00000020;
+  border-radius: 8px;
+  background-color: white;
+}
+.step {
+  display: none;
+}
+.step.active {
+  display: block;
+}
+.form-group {
+  width: 100%;
+  margin-top: 20px;
+}
+.form-group input {
+  width: 100%;
+  border: 1.5px solid rgba(128, 128, 128, 0.418);
+  padding: 5px;
+  font-size: 18px;
+  margin-top: 5px;
+  border-radius: 4px;
+}
+
+button.next-btn,
+button.previous-btn,
+button.submit-btn {
+  float: right;
+  margin-top: 20px;
+  padding: 10px 30px;
+  border: none;
+  outline: none;
+  background-color: rgb(255, 220, 180);
+  font-family: "Montserrat";
+  font-size: 18px;
+  cursor: pointer;
+  /* text-align: right; */
+}
+button.previous-btn {
+  float: left;
+}
+button.submit-btn {
+  background-color: aquamarine;
+}
+
+.style1{
+  color:blue;
+  background-color: brown;
+}
+.gh.colorclass{
+  
+  background: white !important;
+}
+
+
+.ghs.colorclass{
+
+background-color: white !important;
+}
+ progress::-moz-progress-bar {
+  background: pink;
+}
+
+/* For Chrome or Safari */
+progress::-webkit-progress-value {
+  background: pink;
+}
+
+/* For IE10 */
+progress {
+  background: pink;
+}
+
+
